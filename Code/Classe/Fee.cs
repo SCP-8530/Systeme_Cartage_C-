@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project_Final
 {
-    internal class Crystalien : Utilisateur
+    internal class Fee : Utilisateur
     {
         //Attribut
         private string habitant;
@@ -17,27 +17,26 @@ namespace Project_Final
         {
             get { return habitant; }
             set {
-                if (value == "Langitia")
-                    habitant = value;
-                else if (value == "Lurminia")
-                    habitant = value;
-                else if (value == "Technoria")
-                    habitant = value;
-                else if (value == "Cartage")
-                    habitant = value;
-                else if (value == "Vierde")
-                    habitant = value;
-                else habitant = "";
+                    if (value == "Langitia")
+                        habitant = value;
+                    else if (value == "Lurminia")
+                        habitant = value;
+                    else if (value == "Technoria")
+                        habitant = value;
+                    else if (value == "Cartage")
+                        habitant = value;
+                    else if (value == "Vierde")
+                        habitant = value;
             }
         }
 
         //Construct
-        public Crystalien()
+        public Fee()
         {
             Console.WriteLine("Utilisateur creer");
         }
 
-        public Crystalien(
+        public Fee(
             string p_matricule = "",
             string p_nom = "",
             int p_droit = 0,
@@ -51,11 +50,7 @@ namespace Project_Final
 
             Console.WriteLine("Utilisateur creer");
         }
-
+    
         //Methode
-        public void Save()
-        {
-
-        }
     }
 }

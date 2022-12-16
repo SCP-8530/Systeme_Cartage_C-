@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace Project_Final
 {
-    public partial class MainForm : Form
+    public partial class ConnectionForm : Form
     {
-        public MainForm()
+        public ConnectionForm()
         {
             InitializeComponent();
+            this.L_Error.Hide();
+        }
+
+        private void B_Login_Click(object sender, EventArgs e)
+        {
+            
+            this.Close();
+           
         }
     }
 }

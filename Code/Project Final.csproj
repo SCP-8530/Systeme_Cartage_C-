@@ -46,18 +46,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classe\SqlClass.cs" />
+    <Compile Include="Classe\Fee.cs" />
     <Compile Include="Classe\Mission.cs" />
     <Compile Include="Classe\Crystalien.cs" />
     <Compile Include="Classe\Utilisateur.cs" />
-    <Compile Include="MainForm.cs">
+    <Compile Include="Formulaire\CreationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Formulaire\CreationForm.Designer.cs">
+      <DependentUpon>CreationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaire\ConnectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaire\ConnectionForm.Designer.cs">
+      <DependentUpon>ConnectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaire\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaire\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Formulaire\CreationForm.resx">
+      <DependentUpon>CreationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaire\ConnectionForm.resx">
+      <DependentUpon>ConnectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaire\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -84,7 +104,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="multimedia\favicon.ico" />
+    <Content Include="Multimedia\favicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
