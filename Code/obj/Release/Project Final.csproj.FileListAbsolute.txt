@@ -1,0 +1,11 @@
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project Final.csproj.AssemblyReference.cache
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project Final.csproj.SuggestedBindingRedirects.cache
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project_Final.AjoutMission.resources
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project_Final.ListCrystalien.resources
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project_Final.CreationForm.resources
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project_Final.ConnectionForm.resources
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project_Final.ListMission.resources
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project_Final.MainForm.resources
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project_Final.Properties.Resources.resources
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project Final.csproj.GenerateResource.cache
+D:\SESSION 3\DÉVELOPPEMENT D'APPLICATIONS WINDOWS\Systeme_Cartage_C#\Code\obj\Release\Project Final.csproj.CoreCompileInputs.cache

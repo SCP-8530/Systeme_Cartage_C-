@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Final", "Project Final.csproj", "{4A6F56E4-1E40-49A3-9E6D-FF7210C1ABC6}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_Systeme_Cartage", "..\Setup_Systeme_Cartage\Setup_Systeme_Cartage.vdproj", "{A7E2A49E-90C5-40AF-A817-39BF294B6BE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{4A6F56E4-1E40-49A3-9E6D-FF7210C1ABC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6F56E4-1E40-49A3-9E6D-FF7210C1ABC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6F56E4-1E40-49A3-9E6D-FF7210C1ABC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E2A49E-90C5-40AF-A817-39BF294B6BE5}.Debug|Any CPU.ActiveCfg = Debug
+		{A7E2A49E-90C5-40AF-A817-39BF294B6BE5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
