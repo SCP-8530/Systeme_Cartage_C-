@@ -9,28 +9,35 @@ namespace Project_Final
     internal class Mission
     {
         //Attribut
-        private string identifiant;
-        private Crystalien mission_pour;
-        private Utilisateur mission_de;
+        private int identifiant;
+        private string mission_pour;
+        private string mission_de;
+        private string description;
         private int statue;
 
         //Get-Set
-        public string Identifiant
+        public int Identifiant
         {
             get { return identifiant; }
             set { identifiant = value; }
         }
 
-        public Crystalien MissionPour 
+        public string MissionPour 
         {
             get { return mission_pour;}
             set { mission_pour = value;}
         }
 
-        public Utilisateur MissionDe
+        public string MissionDe
         {
             get { return mission_de;}
             set { mission_de = value;}
+        }
+
+        public string Description
+        {
+            get { return description;}
+            set { description = value;}
         }
 
         public int Statue 

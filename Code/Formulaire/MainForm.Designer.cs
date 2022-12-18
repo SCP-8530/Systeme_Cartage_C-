@@ -34,6 +34,11 @@
             this.ML_Connecter = new System.Windows.Forms.ToolStripMenuItem();
             this.ML_NewCompte = new System.Windows.Forms.ToolStripMenuItem();
             this.ML_Deconneter = new System.Windows.Forms.ToolStripMenuItem();
+            this.M_Outils = new System.Windows.Forms.ToolStripMenuItem();
+            this.ML_listCrystalien = new System.Windows.Forms.ToolStripMenuItem();
+            this.M_Fenetre = new System.Windows.Forms.ToolStripMenuItem();
+            this.ML_listMission = new System.Windows.Forms.ToolStripMenuItem();
+            this.ML_AjoutMission = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,8 +46,11 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.M_Login});
+            this.M_Login,
+            this.M_Outils,
+            this.M_Fenetre});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.MdiWindowListItem = this.M_Fenetre;
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
             this.menuStrip1.TabIndex = 0;
@@ -77,6 +85,44 @@
             this.ML_Deconneter.Name = "ML_Deconneter";
             this.ML_Deconneter.Size = new System.Drawing.Size(224, 26);
             this.ML_Deconneter.Text = "Se deconnecter";
+            this.ML_Deconneter.Click += new System.EventHandler(this.ML_Deconneter_Click);
+            // 
+            // M_Outils
+            // 
+            this.M_Outils.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ML_listCrystalien,
+            this.ML_listMission,
+            this.ML_AjoutMission});
+            this.M_Outils.Name = "M_Outils";
+            this.M_Outils.Size = new System.Drawing.Size(61, 24);
+            this.M_Outils.Text = "Outils";
+            // 
+            // ML_listCrystalien
+            // 
+            this.ML_listCrystalien.Name = "ML_listCrystalien";
+            this.ML_listCrystalien.Size = new System.Drawing.Size(224, 26);
+            this.ML_listCrystalien.Text = "Liste des crystaliens";
+            this.ML_listCrystalien.Click += new System.EventHandler(this.listeDesCrystaliensToolStripMenuItem_Click);
+            // 
+            // M_Fenetre
+            // 
+            this.M_Fenetre.Name = "M_Fenetre";
+            this.M_Fenetre.Size = new System.Drawing.Size(72, 24);
+            this.M_Fenetre.Text = "Fenetre";
+            // 
+            // ML_listMission
+            // 
+            this.ML_listMission.Name = "ML_listMission";
+            this.ML_listMission.Size = new System.Drawing.Size(224, 26);
+            this.ML_listMission.Text = "Liste des missions";
+            this.ML_listMission.Click += new System.EventHandler(this.ML_listMission_Click);
+            // 
+            // ML_AjoutMission
+            // 
+            this.ML_AjoutMission.Name = "ML_AjoutMission";
+            this.ML_AjoutMission.Size = new System.Drawing.Size(224, 26);
+            this.ML_AjoutMission.Text = "Ajoute une mission";
+            this.ML_AjoutMission.Click += new System.EventHandler(this.ajouteUneMissionToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -105,6 +151,11 @@
         private System.Windows.Forms.ToolStripMenuItem ML_Connecter;
         private System.Windows.Forms.ToolStripMenuItem ML_NewCompte;
         private System.Windows.Forms.ToolStripMenuItem ML_Deconneter;
+        private System.Windows.Forms.ToolStripMenuItem M_Outils;
+        private System.Windows.Forms.ToolStripMenuItem ML_listCrystalien;
+        private System.Windows.Forms.ToolStripMenuItem M_Fenetre;
+        private System.Windows.Forms.ToolStripMenuItem ML_listMission;
+        private System.Windows.Forms.ToolStripMenuItem ML_AjoutMission;
     }
 }
 

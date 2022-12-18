@@ -94,7 +94,6 @@ namespace Project_Final
                 this.Erreur(5);//Donne vide
             else //Tout est correct
             {
-                MessageBox.Show("Compte creer!");
                 User.Save();
                 this.Close();
             }

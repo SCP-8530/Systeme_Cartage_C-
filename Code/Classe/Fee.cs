@@ -9,24 +9,23 @@ namespace Project_Final
     internal class Fee : Utilisateur
     {
         //Attribut
-        private string habitant;
-        public List<Mission> lstMission;
+        private string proprietaire_de;
 
         //Get-Set
-        public string Habitant
+        public string ProprietaireDe
         {
-            get { return habitant; }
+            get { return proprietaire_de; }
             set {
                     if (value == "Langitia")
-                        habitant = value;
+                        proprietaire_de = value;
                     else if (value == "Lurminia")
-                        habitant = value;
+                        proprietaire_de = value;
                     else if (value == "Technoria")
-                        habitant = value;
+                        proprietaire_de = value;
                     else if (value == "Cartage")
-                        habitant = value;
+                        proprietaire_de = value;
                     else if (value == "Vierde")
-                        habitant = value;
+                        proprietaire_de = value;
             }
         }
 
@@ -39,14 +38,14 @@ namespace Project_Final
         public Fee(
             string p_matricule = "",
             string p_nom = "",
-            int p_droit = 0,
-            string p_habitant = ""
+            int p_droit = 3, //les fee ont automatiquement un droit admin
+            string p_proprietaire_de = ""
             ):base(p_matricule,p_nom,p_droit)
         {
             this.matricule = p_matricule;
             this.nom = p_nom;
             this.droit = p_droit;
-            this.habitant= p_habitant;
+            this.proprietaire_de = p_proprietaire_de;
 
             Console.WriteLine("Utilisateur creer");
         }
